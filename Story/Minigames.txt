@@ -1,0 +1,12 @@
+Poker:
+standart Poker Regeln; Bier ist Einsatz
+
+
+Undertale Kampf:
+nur Minigame; kann Boss besiegen oder verschonen (macht keinen Unterschied); Boss kann einen besiegen;
+Items können im Kampf verwendet werden; kann sich während des Kampfes mit Boss verlassen
+
+
+MeetCute-Datingsim:
+bekommt mehrere Auswahlmöglichkeiten; muss sich für eins entscheiden; richtige Kombination führt zum Sieg;
+muss Pokergewinn schenken um zu gewinnen

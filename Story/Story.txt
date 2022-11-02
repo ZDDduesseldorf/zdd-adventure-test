@@ -1,0 +1,582 @@
+By Carl Vogel, Julian Mäder, Marie Friedeheim, Miriam Agrawala
+
+
+
+Ending Liste: (17)
+- Schnelles Ending
+- Schnelles Ending ohne Poker
+- Undertale Death Ending Poker gewonnen
+- Undertale Death Ending Poker verloren
+- Undertale Death Ending ohne Poker
+- True Ending
+- Second Ending
+- Third Ending
+- Fourth Ending
+- Bad Ending Poker gewonnen
+- Dating Ending Poker gewonnen
+- True Dating Ending Poker gewonnen
+- Poker verloren
+- Poker verloren Erzähler
+- Bad Ending Poker verloren
+- ohne Poker
+- ohne Poker Erzähler
+
+
+
+Story wird in dritter Person von eimem "the Stanley Parable"-like Erzähler erzählt
+mit Begleiter kann ab Erhalt bis Abgabe immer kommuniziert werden
+Minigames in separatem Dokument beschrieben
+
+
+
+Schnelles Ending:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhtl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Treppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (ohne Erfolg), wird gefasst
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Schelles Ending ohne Poker:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhtl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; Brandschutztür zur Treppe ist geschlossen; findet illegale Pokerrunde; ignoriert;
+bekommt Steve nicht mit; muss Labor von Walter Black finden; nach Items in Schalterräumen suchen;
+Walter Black baut Sprengsatz; Brandschutztür öffnet sich
+
+Keller -1:
+Treppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (ohne Erfolg), wird gefasst
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Undertale Death Ending Poker gewonnen:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhtl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg) oder bestechen oder Pokerrunde verraten; findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; verliert
+ENDE --> wacht wieder im Hörsaal auf
+
+
+
+
+Undertale Death Ending Poker verloren:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhtl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; verliert; bekommt Steve mit;
+Branndschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg) oder Pokerrunde verraten; findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; verliert
+ENDE --> wacht wieder im Hörsaal auf
+
+
+
+
+Undertale Death Ending ohne Poker:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhtl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; Brandschutztür zur Treppe ist geschlossen; findet illegale Pokerrunde; ignoriert;
+bekommt Steve nicht mit; muss Labor von Walter Black finden; nach Items in Schalterräumen suchen;
+Walter Black baut Sprengsatz; Brandschutztür öffnet sich
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; verliert
+ENDE --> wacht wieder im Hörsaal auf
+
+
+
+
+True Ending:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; schließt verschlossen Raum auf;
+findet Erzähler; konfrontiert Erzähler; Erzähler stellt sich als Prof. Huber raus; Spieler sitzt in Vorlesung über ZDD-Game
+und verarbeitet Vorlesung; Spiel stellt sich als Traum raus, verlässt Raum; geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht auf
+ENDE (completed Game)
+
+
+
+
+Second Ending:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; bestechen; findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; schließt verschlossen Raum auf;
+findet Erzähler; konfrontiert Erzähler; Erzähler stellt sich als Prof. Huber raus; Spieler sitzt in Vorlesung über ZDD-Game
+und verarbeitet Vorlesung; Spiel stellt sich als Traum raus, verlässt Raum; geht in Erdgeschoss
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Third Ending:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; bestechen; findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; ignoriert verschlossenen Raum;
+geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Fourth Ending:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; ignoriert verschlossenen Raum;
+geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Bad Ending Poker gewonnen:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitzsdienst bemerkt einen; verrät Pokerrunde; Sicherheitsdienst geht; findet Raum; sucht RAum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; wird für Verrat verprügelt
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Dating Ending Poker gewonnen:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitzsdienst bemerkt einen; verrät Pokerrunde; Sicherheitsdienst geht; findet Raum; sucht RAum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; Fachschaft will verprügeln; Partner verhindert;bekommt Keycard für Erdgeschoss;
+ignoriert verschlossenen Raum; geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+True Dating Ending Poker gewonnen:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; gewinnt Preisitem; bekommt Steve mit;
+Brandschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitzsdienst bemerkt einen; verrät Pokerrunde; Sicherheitsdienst geht; findet Raum; sucht RAum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; Fachschaft will verprügeln; Partner verhindert;bekommt Keycard für Erdgeschoss;
+schließt verschlossen Raum auf; findet Erzähler; konfrontiert Erzähler; Erzähler stellt sich als Prof. Huber raus;
+Spieler sitzt in Vorlesung über ZDD-Game und verarbeitet Vorlesung; Spiel stellt sich als Traum raus, verlässt Raum;
+geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE (completed Game)
+
+
+
+
+Poker verloren:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; verliert; bekommt Steve mit;
+Branndschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; ignoriert verschlossenen Raum;
+geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Poker verloren Erzähler:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; verliert; bekommt Steve mit;
+Branndschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; schließt verschlossen Raum auf;
+findet Erzähler; konfrontiert Erzähler; Erzähler stellt sich als Prof. Huber raus; Spieler sitzt in Vorlesung über ZDD-Game
+und verarbeitet Vorlesung; Spiel stellt sich als Traum raus, verlässt Raum; geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+Bad Ending Poker verloren:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; findet illegale Pokerrunde; spielt mit; verliert; bekommt Steve mit;
+Branndschutztür zur Treppe ist geschlossen; zwei Schlater in zwei Räumen müssen gleichzeitig umgelegt werden
+(Steve an einem abstellen); Brandschutztür öffnet sich; (alternativ Labor von Walter Black finden;
+baut Sprengsatz aus gefundenen Items; Brandschutztür öffnet sich)
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitzsdienst bemerkt einen; verrät Pokerrunde; Sicherheitsdienst geht; findet Raum; sucht RAum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; wird für Verrat verprügelt
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+ohne Poker:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; Brandschutztür zur Treppe ist geschlossen; findet illegale Pokerrunde; ignoriert;
+bekommt Steve nicht mit; muss Labor von Walter Black finden; nach Items in Schalterräumen suchen;
+Walter Black baut Sprengsatz; Brandschutztür öffnet sich
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; ignoriert verschlossenen Raum;
+geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
+
+
+
+
+ohne Poker Erzähler:
+
+Etage 1:
+Aufwachen im Vorlesungsraum; Aufzug gesperrt mit Schlüsselkarte; weg zur Fachschaft;
+Fachschaft sucht Schlüssel für Bier; zurück in Vorlesungsraum; Schlüssel finden;
+verschlossener Raum 1 öffnen; Bierschlüssel finden;Bierschlüssel in Fachschaft gegen Bier eintauschen;
+Fachschaft öffnet Fahrstuhl; nur ein Knopf funktioniert
+
+Keller -2:
+Mit Fahrstuhl ankommen; Brandschutztür zur Treppe ist geschlossen; findet illegale Pokerrunde; ignoriert;
+bekommt Steve nicht mit; muss Labor von Walter Black finden; nach Items in Schalterräumen suchen;
+Walter Black baut Sprengsatz; Brandschutztür öffnet sich
+
+Keller -1:
+Teppenhaus verlassen; Sicherheitsdienst bemerkt einen; verwirren (mit Erfolg); findet Raum; sucht Raum ab;
+findet Keycard für Aufzug 2; geht zu Aufzug 2; verlässt Etage
+
+Dach:
+Verlässt Fahrstuhl; sucht Dach ab; triggert Undertale-Bosskampf; kämpft gegen Boss; muss überleben;
+sucht Dach weiter ab; findet Kante zur nächsten Etage; springt auf Balkon
+
+Etage 2:
+Landet auf Balkon; hat schmerzen; findet andere Person; Datingsim-Minigame; wird kein Paar; findet Schlüssel für VRaum 2E1;
+geht zur Feuerleiter in nächste Etage
+
+Etage 1.2:
+Kommt über Feuerleiter; gibt Steve in Fachschaft ab; bekommt Keycard für Erdgeschoss; schließt verschlossen Raum auf;
+findet Erzähler; konfrontiert Erzähler; Erzähler stellt sich als Prof. Huber raus; Spieler sitzt in Vorlesung über ZDD-Game
+und verarbeitet Vorlesung; Spiel stellt sich als Traum raus, verlässt Raum; geht in Erdgeschoss via Treppe
+
+EG:
+kommt über Treppe; geht zur Tür; verlässt Gebäude; wacht im Hörsaal auf
+ENDE --> wieder im Hörsaal (new Game)
