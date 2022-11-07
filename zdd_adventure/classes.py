@@ -1,4 +1,6 @@
 """Documentation about the zdd_adventure module."""
+import time
+
 class Game:
     def __init__(self):
         self.inventory = ["Stundenausweis"]
@@ -62,3 +64,19 @@ class Item:
             print(f"{self.name} wurde ins Inventar aufgenommen.")
             return self
         return None
+
+
+# grafical funktion for printing delayed text
+def delayed_print_output(pattern):
+    ''' printed out a delayed version of your pattern'''
+    def slower_text(pattern):
+        for x in range(len(pattern)):
+            print(pattern[x], end= '')
+            DELAY_TIME = time.sleep(0.005)
+            DELAY_TIME
+    return slower_text(pattern)
+
+
+# Playername query
+name = input(str('name:  '))
+
