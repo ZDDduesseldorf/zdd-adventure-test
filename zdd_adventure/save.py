@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-
 import json
 
 
 def load_data():
     # Opening JSON file
-    f = open('player_data.json')
+    f = open('player_data.json', "r")
 
     # returns JSON object as a dictionary
     data = json.load(f)

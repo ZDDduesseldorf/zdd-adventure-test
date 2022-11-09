@@ -1,6 +1,6 @@
 """This starts the adventure
 """
-import save
+import zdd_adventure.save as save
 
 game_over = False
 
