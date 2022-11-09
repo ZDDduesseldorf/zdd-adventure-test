@@ -3,6 +3,6 @@
     "inventory" : [
         "Studierendenausweis"
     ],
-    "floor": "1",
-    "room": "1"
+    "floor": 1,
+    "room": 1
 }
