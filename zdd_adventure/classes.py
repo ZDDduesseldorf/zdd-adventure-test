@@ -1,14 +1,17 @@
 """Documentation about the zdd_adventure module."""
 import time
+from zdd_adventure.room_basement_1 import room_basement_1
 
 class Game:
     def __init__(self):
         self.inventory = ["Stundenausweis"]
         self.events = []
         self.drunken = False
+        # Playername query
+        self.name = input(str('name:  '))
         
     def start(self):
-        pass
+        room_basement_1(self.name)
 
     def make_choice(self, choices):
         # input()
@@ -77,6 +80,5 @@ def delayed_print_output(pattern):
     return slower_text(pattern)
 
 
-# Playername query
-name = input(str('name:  '))
+
 
