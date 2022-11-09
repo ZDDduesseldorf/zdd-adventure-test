@@ -107,7 +107,7 @@ def leave_room():
 
 
 # main funktion for LECTURE HALL
-def room_basement_1(name, text_pattern_1,text_pattern_2, text_pattern_3):
+def room_basement_1(name):
     ''' wake up in the lecture hall '''
 
     delayed_print_output(text_pattern_1)
@@ -131,9 +131,5 @@ def room_basement_1(name, text_pattern_1,text_pattern_2, text_pattern_3):
 
 
 
-
-
-
-
-room_basement_1(name, text_pattern_1,text_pattern_2, text_pattern_3)
-
+if __name__ == "__main__":
+    room_basement_1(name)
