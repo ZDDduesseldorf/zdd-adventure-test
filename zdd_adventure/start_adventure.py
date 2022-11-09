@@ -6,3 +6,5 @@ def start():
     print(">>>> Something awesome is about to happen...")
     for _ in range(5):
         print(20 * ">")
+
+start()
