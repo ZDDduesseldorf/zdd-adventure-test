@@ -1,6 +1,8 @@
 {
     "name": "",
-    "invewntory" : [
+    "inventory" : [
         "Studierendenausweis"
-    ]
+    ],
+    "floor": "1",
+    "room": "1"
 }
