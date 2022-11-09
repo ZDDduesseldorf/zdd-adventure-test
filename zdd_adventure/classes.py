@@ -11,7 +11,9 @@ class Game:
         self.name = input(str('name:  '))
         
     def start(self):
-        room_basement_1(self.name)
+        room_basement_1(self)
+        # next_room(self)
+        # next_next_room(self)
 
     def make_choice(self, choices):
         # input()
