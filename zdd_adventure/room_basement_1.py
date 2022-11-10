@@ -9,16 +9,17 @@ from zdd_adventure.graphics import delayed_print_output
 # 2.look for more evidence
 # 3.leave the room
 
-def search_light_switch():
+def search_light_switch(data):
+    name = data["name"]
     text_pattern_2 = f'''
-    Langsam steht {game.name} auf.
+    Langsam steht {name} auf.
     Der Lichtschalter befindet sich Nade der Tür, sodass es nur 5 Meter sind. 
-    {game.name} steht mit wackeligen Beinen auf um den Lichtschalter zu betätigen.
+    {name} steht mit wackeligen Beinen auf um den Lichtschalter zu betätigen.
     
     ......[click]...........
     
     
-    "Immerhin funktioniert der Strom noch.", dachte sich {game.name}.
+    "Immerhin funktioniert der Strom noch.", dachte sich {name}.
     
     Der Raum ist jetzt beleutet.
     Was möchtest du tun? '''
@@ -38,17 +39,18 @@ def search_light_switch():
         "Deine Antwort muss 1 oder 2 lauten."
         player_choice
               
-def find_evidence():
+def find_evidence(data):
+    name = data["name"]
     player_choice = 0
     text_pattern_3 = f'''
-    {game.name} beginnt sich langsam Richtung Vorlesungspult zu begeben. Vielleicht liegen dort Hinweise...
-    Als {game.name} am Pult ankommt, liegen folgende Items auf dem Pult.
+    {name} beginnt sich langsam Richtung Vorlesungspult zu begeben. Vielleicht liegen dort Hinweise...
+    Als {name} am Pult ankommt, liegen folgende Items auf dem Pult.
     
     -> Eine angefangene Wasserflasche
     -> Ein Schraubenzieher
     -> Ein Packet Boardmarker
     
-    {game.name} hat jedoch nur Platz für ein Item. 
+    {name} hat jedoch nur Platz für ein Item. 
     '''
     delayed_print_output(text_pattern_3)
     player_choice = int(input(f'''
@@ -56,32 +58,33 @@ def find_evidence():
     2. Schraubenzieher
     3. Boardmarker
     
-    Welches Item möchte {game.name} aufheben?
+    Welches Item möchte {name} aufheben?
     '''))
     if player_choice == 1:
         print('Wasserflasche aufgehoben')
-        game.inventory += ['Wasserflasche']
+        data["inventory"] += ['Wasserflasche']
         leave_room()
         
     if player_choice == 2:
         print('Schraubenzieher aufgehoben')
-        game.inventory += ['Schraubenzieher']
+        data["inventory"] += ['Schraubenzieher']
         leave_room()
         
     if player_choice == 3:
         print('Boardmarker aufgehoben')
-        game.inventory += ['Boardmarker']
+        data["inventory"] += ['Boardmarker']
         leave_room()
     else:
         "Deine Antwort muss 1, 2 oder 3 lauten."
         player_choice
         
-def leave_room():
-        txt = f'''
-        {game.name} hat den Vorlesungssaal jetzt wieder verlassen und steht jetzt auf dem Flur. 
-        {game.name} steht nur da und fragt sich, wie es weiter gehen soll. 
-        '''
-        delayed_print_output(txt)
+def leave_room(data):
+    name = data["name"]
+    txt = f'''
+    {name} hat den Vorlesungssaal jetzt wieder verlassen und steht jetzt auf dem Flur. 
+    {name} steht nur da und fragt sich, wie es weiter gehen soll. 
+    '''
+    delayed_print_output(txt)
 
 
 
@@ -93,13 +96,15 @@ def leave_room():
 
 
 # main funktion for LECTURE HALL
-def room_basement_1(game):
+def room_basement_1(data):
+    name = data["name"]
+    print(name)
     ''' wake up in the lecture hall '''
     text_pattern_1 = f''' 
-    {game.name} macht langsam die Augen auf. Sie lassen sich nur sehr langsam öffnen...
-    Langsam aber sicher erkennt {game.name} die Umgebung wieder. Es ist die Hochschule. 
-    Niemand weiß, wie {game.name} dort hingekommen war, doch jetzt ist {game.name} hier...
-    Aber was soll {game.name} jetzt machen? Der Kopf ist völlig leer:
+    {name} macht langsam die Augen auf. Sie lassen sich nur sehr langsam öffnen...
+    Langsam aber sicher erkennt {name} die Umgebung wieder. Es ist die Hochschule. 
+    Niemand weiß, wie {name} dort hingekommen war, doch jetzt ist {name} hier...
+    Aber was soll {name} jetzt machen? Der Kopf ist völlig leer:
     ?...
     
     '''
@@ -112,21 +117,21 @@ def room_basement_1(game):
     '''))
 
     if player_choice == 1:
-        find_evidence()
+        find_evidence(data)
 
     if player_choice == 2:
-        search_light_switch()
+        search_light_switch(data)
 
     if player_choice == 3:
-        leave_room()
+        leave_room(data)
     else:
         "Deine Antwort muss 1, 2 oder 3 lauten."
         player_choice
-    game.visited_rooms += ['lecture hall']
+    data["visited_rooms"] += ['lecture hall']
 
 
 
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     class Game:
         def __init__(self):
             self.inventory = ["Stundenausweis"]
@@ -137,4 +142,4 @@ if __name__ == "__main__":
             self.visited_rooms = []
                        
     game = Game()
-    room_basement_1(game)
+    room_basement_1(game)'''

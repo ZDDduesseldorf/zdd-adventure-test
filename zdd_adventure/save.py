@@ -23,5 +23,6 @@ def game_over():
     ]
     data["floor"] = 1
     data["room"] = 1
+    data["visited_rooms"] = []
     with open('player_data.json', 'w') as f:
         json.dump(data, f)
