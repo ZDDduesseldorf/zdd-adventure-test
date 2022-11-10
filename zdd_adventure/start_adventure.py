@@ -14,9 +14,9 @@ def start():
     print(">>>> Loading Data...")
     #spieldaten laden
     data = save.load_data()
-    #floor = {1: room_basement_1.room_basement_1(data["name"])}
-    #while not end_game:
-        #floor[data["floor"]]
+    floor = {1: room_basement_1.room_basement_1(data["name"])}
+    while not end_game:
+        floor[data["floor"]]
     
     
 

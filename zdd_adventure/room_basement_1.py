@@ -1,43 +1,4 @@
-from zdd_adventure.classes import name, delayed_print_output
-
-
-# maybe we can create a file within all text pattern for room basement 1 (lecture hall )
-# but not nessesary
-    
-#Storytext - just a first example
-text_pattern_1 = f''' 
-    {name} macht langsam die Augen auf. Sie lassen sich nur sehr langsam öffnen...
-    Langsam aber sicher erkennt {name} die Umgebung wieder. Es ist die Hochschule. 
-    Niemand weiß, wie {name} dort hingekommen war, doch jetzt ist {name} hier...
-    Aber was soll {name} jetzt machen? Der Kopf ist völlig leer:
-    ?...
-    
-    '''
-text_pattern_2 = f'''
-    Langsam steht {name} auf.
-    Der Lichtschalter befindet sich Nade der Tür, sodass es nur 5 Meter sind. 
-    {name} steht mit wackeligen Beinen auf um den Lichtschalter zu betätigen.
-    
-    ......[click]...........
-    
-    
-    "Immerhin funktioniert der Strom noch.", dachte sich {name}.
-    
-    Der Raum ist jetzt beleutet.
-    Was möchtest du tun? '''
-              
-text_pattern_3 = f'''
-    {name} beginnt sich langsam Richtung Vorlesungspult zu begeben. Vielleicht liegen dort Hinweise...
-    Als {name} am Pult ankommt, liegen folgende Items auf dem Pult.
-    
-    -> Eine angefangene Wasserflasche
-    -> Ein Schraubenzieher
-    -> Ein Packet Boardmarker
-    
-    {name} hat jedoch nur Platz für ein Item. 
-    '''
-
-
+from zdd_adventure.graphics import delayed_print_output
 
 
 
@@ -48,7 +9,19 @@ text_pattern_3 = f'''
 # 2.look for more evidence
 # 3.leave the room
 
-def search_light_switch(name, text_pattern_2):
+def search_light_switch():
+    text_pattern_2 = f'''
+    Langsam steht {game.name} auf.
+    Der Lichtschalter befindet sich Nade der Tür, sodass es nur 5 Meter sind. 
+    {game.name} steht mit wackeligen Beinen auf um den Lichtschalter zu betätigen.
+    
+    ......[click]...........
+    
+    
+    "Immerhin funktioniert der Strom noch.", dachte sich {game.name}.
+    
+    Der Raum ist jetzt beleutet.
+    Was möchtest du tun? '''
     delayed_print_output(text_pattern_2)
     player_choice = int(input('''
     1. Umsehen nach Anhaltszeichen
@@ -67,24 +40,37 @@ def search_light_switch(name, text_pattern_2):
               
 def find_evidence():
     player_choice = 0
+    text_pattern_3 = f'''
+    {game.name} beginnt sich langsam Richtung Vorlesungspult zu begeben. Vielleicht liegen dort Hinweise...
+    Als {game.name} am Pult ankommt, liegen folgende Items auf dem Pult.
+    
+    -> Eine angefangene Wasserflasche
+    -> Ein Schraubenzieher
+    -> Ein Packet Boardmarker
+    
+    {game.name} hat jedoch nur Platz für ein Item. 
+    '''
     delayed_print_output(text_pattern_3)
     player_choice = int(input(f'''
     1. Wasserflasche
     2. Schraubenzieher
     3. Boardmarker
     
-    Welches Item möchte {name} aufheben?
+    Welches Item möchte {game.name} aufheben?
     '''))
     if player_choice == 1:
         print('Wasserflasche aufgehoben')
+        game.inventory += ['Wasserflasche']
         leave_room()
         
     if player_choice == 2:
         print('Schraubenzieher aufgehoben')
+        game.inventory += ['Schraubenzieher']
         leave_room()
         
     if player_choice == 3:
         print('Boardmarker aufgehoben')
+        game.inventory += ['Boardmarker']
         leave_room()
     else:
         "Deine Antwort muss 1, 2 oder 3 lauten."
@@ -92,8 +78,8 @@ def find_evidence():
         
 def leave_room():
         txt = f'''
-        {name} hat den Vorlesungssaal jetzt wieder verlassen und steht jetzt auf dem Flur. 
-        {name} steht nur da und fragt sich, wie es weiter gehen soll. 
+        {game.name} hat den Vorlesungssaal jetzt wieder verlassen und steht jetzt auf dem Flur. 
+        {game.name} steht nur da und fragt sich, wie es weiter gehen soll. 
         '''
         delayed_print_output(txt)
 
@@ -107,8 +93,16 @@ def leave_room():
 
 
 # main funktion for LECTURE HALL
-def room_basement_1(name):
+def room_basement_1(game):
     ''' wake up in the lecture hall '''
+    text_pattern_1 = f''' 
+    {game.name} macht langsam die Augen auf. Sie lassen sich nur sehr langsam öffnen...
+    Langsam aber sicher erkennt {game.name} die Umgebung wieder. Es ist die Hochschule. 
+    Niemand weiß, wie {game.name} dort hingekommen war, doch jetzt ist {game.name} hier...
+    Aber was soll {game.name} jetzt machen? Der Kopf ist völlig leer:
+    ?...
+    
+    '''
 
     delayed_print_output(text_pattern_1)
     player_choice = int(input('''
@@ -121,15 +115,26 @@ def room_basement_1(name):
         find_evidence()
 
     if player_choice == 2:
-        search_light_switch(name,text_pattern_2)
+        search_light_switch()
 
     if player_choice == 3:
         leave_room()
     else:
         "Deine Antwort muss 1, 2 oder 3 lauten."
         player_choice
+    game.visited_rooms += ['lecture hall']
 
 
 
 if __name__ == "__main__":
-    room_basement_1(name)
+    class Game:
+        def __init__(self):
+            self.inventory = ["Stundenausweis"]
+            self.events = []
+            self.drunken = False
+            # Playername query
+            self.name = input(str('name:  '))
+            self.visited_rooms = []
+                       
+    game = Game()
+    room_basement_1(game)

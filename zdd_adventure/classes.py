@@ -1,5 +1,5 @@
 """Documentation about the zdd_adventure module."""
-import time
+
 from zdd_adventure.room_basement_1 import room_basement_1
 
 class Game:
@@ -9,6 +9,7 @@ class Game:
         self.drunken = False
         # Playername query
         self.name = input(str('name:  '))
+        self.visited_rooms = []
         
     def start(self):
         room_basement_1(self)
@@ -71,15 +72,6 @@ class Item:
         return None
 
 
-# grafical funktion for printing delayed text
-def delayed_print_output(pattern):
-    ''' printed out a delayed version of your pattern'''
-    def slower_text(pattern):
-        for x in range(len(pattern)):
-            print(pattern[x], end= '')
-            DELAY_TIME = time.sleep(0.005)
-            DELAY_TIME
-    return slower_text(pattern)
 
 
 
