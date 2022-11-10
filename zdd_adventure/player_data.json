@@ -1,9 +1,1 @@
-{
-    "name": "",
-    "inventory" : [
-        "Studierendenausweis"
-    ],
-    "floor": 1,
-    "room": 1,
-    "visited_rooms": []
-}
+{"yo": {"name": "yo", "inventory": ["Studierendenausweis"], "floor": 1, "room": 1, "visited_rooms": []}, "hi": {"name": "hi", "inventory": ["Studierendenausweis"], "floor": 1, "room": 1, "visited_rooms": []}, "XD": {"name": "XD", "inventory": ["Studierendenausweis"], "floor": 1, "room": 1, "visited_rooms": []}}
