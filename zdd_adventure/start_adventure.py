@@ -7,15 +7,10 @@ import zdd_adventure.change_place as change_place
 end_game = False
 
 def start():
-    for _ in range(5):
-        print(20 * ">")
-    print(">>>> Something awesome is about to happen...")
-    for _ in range(5):
-        print(20 * ">")
     print(">>>> Loading Data...")
-    #spieldaten laden
-    acc = save.load_data()
-    accounts = list(acc.keys())
+    # Spieldaten laden
+    data_saves = save.initialize_saves()
+    accounts = list(data_saves.keys())
     my_game = ""
     while my_game == "":
         print("\n\nChoose your Game-stats\n\n0: New Game")
@@ -32,14 +27,18 @@ def start():
         print("Welcome newcommer! \nFirst tell me your Name") # falls das in dritte form geschrieben werden soll bitte korrigieren
         while (name == "") or (name in accounts):
             name = input("Enter your name: ")
-        save.create_new_player(name)
+        save.create_new_player(data_saves, name)
     else:
         name = accounts[(int(my_game)-1)]
         print(f'Welcome back {name}!')
-    data = save.load_player_data(name)
+    save.load_player_data(data_saves, name)
+    data_current = data_saves[name]
     while not end_game:
         os.system('cls')
-        change_place.floor_rooms[data["floor"]][data["room"]]["func"](data)
-        data = change_place.change_place(data)
-        save.save_data(data)
-    
+        change_place.floor_rooms[data_current["floor"]][data_current["room"]]["func"](data_current)
+        data_current = change_place.change_place(data_current)
+        save.save_data(data_saves, data_current)
+
+
+if __name__ == '__main__':
+    start()
