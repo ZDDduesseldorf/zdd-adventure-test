@@ -5,7 +5,7 @@ import os
 import datetime
 
 # grafical funktion for printing delayed text
-def delayed_print_output(pattern, print_speed=0.05):
+def delayed_print_output(pattern, print_speed=0.05): #print_speed ist time.sleep value
     ''' printed out a delayed version of your pattern'''
     def slower_text(pattern):
         for x in range(len(pattern)):
@@ -36,9 +36,19 @@ def clear_cmd():
         _ = system('clear')
 
 # read/ print .txt file
-def ascii_output(picture):
+# > picture = filename.txt 
+# > delay = print with delayed_print_output method 
+# > print_speed = time.sleep value
+def ascii_output(picture, delay=False, print_speed=0.001):
     root = os.getcwd()
     filename = os.path.join(root, "ASCII_art", picture)
     ascii_data = open(filename, "r", encoding="utf-8")
-    print(ascii_data.read())
+    image_str = ascii_data.read()
+    
+    if delay == True:
+        delayed_print_output(image_str, print_speed)
+        
+    else:
+        print(image_str)
+        
     ascii_data.close()
