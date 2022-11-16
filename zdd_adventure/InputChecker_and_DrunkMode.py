@@ -13,13 +13,10 @@ decision_beer = 1 #dummy input for presentation purposes
 
 
 
-def PlayerInput(choices,decision_beer): #choices: possible decisions/choices in a situation, type should be an array
+def player_input(choices, decision_beer=0): #choices: possible decisions/choices in a situation, type should be an array
                                         #decision_beer: value of 1 or 0, depending if the Player is drunk or not
-    index = 1 
-    
-    for i in choices: #loop for printing the different deciscions from the decision-array
-        print(str(index)+". ", i)
-        index = index + 1
+    for i, choice in enumerate(choices): #loop for printing the different deciscions from the decision-array
+        print(f"{i + 1}.  {choice}")
         
     player_choice=int(input("Decide! ")) #player_choice: number the player chose on the keyboard
     
@@ -39,7 +36,7 @@ def PlayerInput(choices,decision_beer): #choices: possible decisions/choices in 
     
     else: #if the input is not valid, the player is informed that he needs to type in another value 
         print("No valid input. Please select one of the offered choices by pressing the corresponding numbers on the keyboard. \n")
-        PlayerInput(choices,decision_beer) #the PlayerInput function is called again
+        player_input(choices, decision_beer) #the PlayerInput function is called again
         
 
 #PlayerInput(choices)
