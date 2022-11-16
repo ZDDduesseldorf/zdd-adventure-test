@@ -24,6 +24,7 @@ def countdown(time_sec):
         time_sec -= 1
         time.sleep(1)
 
+#  clear terminal/ CMD
 def clear_cmd():
  
     # for windows
@@ -33,11 +34,11 @@ def clear_cmd():
     # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
-        
+
+# read/ print .txt file
 def ascii_output(picture):
     root = os.getcwd()
     filename = os.path.join(root, "ASCII_art", picture)
     ascii_data = open(filename,"r")
-    content = ascii_data.read()
+    print(ascii_data.read())
     ascii_data.close()
-    print(content)
