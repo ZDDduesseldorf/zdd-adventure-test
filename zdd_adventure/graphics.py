@@ -39,6 +39,6 @@ def clear_cmd():
 def ascii_output(picture):
     root = os.getcwd()
     filename = os.path.join(root, "ASCII_art", picture)
-    ascii_data = open(filename,"r")
+    ascii_data = open(filename, "r", encoding="utf-8")
     print(ascii_data.read())
     ascii_data.close()
