@@ -13,8 +13,8 @@ import datetime
 def delayed_print_output(pattern):
     ''' printed out a delayed version of your pattern'''
     def slower_text(pattern):
-        for x in range(len(pattern)):
-            print(pattern[x], end= '')
+        for x in pattern:
+            print(x, end= '')
             sys.stdout.flush()
             DELAY_TIME = time.sleep(0.005)
             DELAY_TIME
