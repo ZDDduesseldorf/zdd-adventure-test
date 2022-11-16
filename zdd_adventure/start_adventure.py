@@ -7,11 +7,6 @@ import zdd_adventure.change_place as change_place
 end_game = False
 
 def start():
-    for _ in range(5):
-        print(20 * ">")
-    print(">>>> Something awesome is about to happen...")
-    for _ in range(5):
-        print(20 * ">")
     print(">>>> Loading Data...")
     #spieldaten laden
     acc = save.load_data()
