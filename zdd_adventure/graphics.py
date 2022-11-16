@@ -15,6 +15,7 @@ def delayed_print_output(pattern):
     def slower_text(pattern):
         for x in range(len(pattern)):
             print(pattern[x], end= '')
+            sys.stdout.flush()
             DELAY_TIME = time.sleep(0.005)
             DELAY_TIME
     return slower_text(pattern)
