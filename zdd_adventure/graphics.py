@@ -5,13 +5,13 @@ import os
 import datetime
 
 # grafical funktion for printing delayed text
-def delayed_print_output(pattern):
+def delayed_print_output(pattern, print_speed=0.05):
     ''' printed out a delayed version of your pattern'''
     def slower_text(pattern):
         for x in range(len(pattern)):
             print(pattern[x], end= '')
             sys.stdout.flush()
-            DELAY_TIME = time.sleep(0.5)
+            DELAY_TIME = time.sleep(print_speed)
             DELAY_TIME
     return slower_text(pattern)
 
