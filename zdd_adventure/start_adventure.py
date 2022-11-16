@@ -13,8 +13,8 @@ def start():
     accounts = list(data_saves.keys())
     while True:
         print("\n\nChoose your Game-stats\n\n0: New Game")
-        for i in range(len(accounts)):
-            print(f"{i+1} {accounts[i]}")
+        for i, account in enumerate(accounts):
+            print(f"{i+1} {account}")
         my_game = input("\nInsert your Game:")
         if my_game.strip() == "0":
             print("Welcome newcommer! \nFirst tell me your Name") # falls das in dritte form geschrieben werden soll bitte korrigieren
