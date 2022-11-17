@@ -5,12 +5,12 @@ import os
 import datetime
 
 # grafical funktion for printing delayed text
+# print_speed = time.sleep value
 def slow_print(pattern, print_speed=0.05):
 	for i in pattern + '\n':
 		sys.stdout.write(i)
 		sys.stdout.flush()
 		time.sleep(print_speed)
-
 # countdown 
 def countdown(time_sec):
     
@@ -37,7 +37,7 @@ def clear_cmd():
 # > print_speed = time.sleep value
 def ascii_output(picture, delay=False, print_speed=0.001):
     root = os.getcwd()
-    filename = os.path.join(root, "ASCII_art", picture)
+    filename = os.path.join(root + "//ASCII_art//" + picture)
     ascii_data = open(filename, "r", encoding="utf-8")
     image_str = ascii_data.read()
     
