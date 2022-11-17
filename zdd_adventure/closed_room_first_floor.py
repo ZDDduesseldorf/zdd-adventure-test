@@ -4,8 +4,7 @@ Created on Thu Nov 10 22:33:26 2022
 
 @author: lizak
 """
-from zdd_adventure.graphics import delayed_print_output
-from zdd_adventure.graphics import countdown
+from zdd_adventure.graphics import countdown, slow_print, ascii_output
 from zdd_adventure.InputChecker_and_DrunkMode import player_input
 import time
 # the locked room on the 1st basement 
@@ -17,9 +16,6 @@ import time
 # search_the_key()
 # leave_room()
 
-
-
-    
     
     
 def closed_room_first_floor(game):
@@ -29,7 +25,7 @@ def closed_room_first_floor(game):
     it's dark\n\n"""
 
 
-    delayed_print_output(text_1)
+    slow_print(text_1)
     
     choices = ["Turn the light on", "leave the room"]
  
@@ -47,7 +43,7 @@ def switch_light_on():
     Ooopss the light switch isn't working and the windows are
     dyed in Black, so that there is no daylight in the room...\n\n"""
                 
-    delayed_print_output(text_2)
+    slow_print(text_2)
     
     
     choices = ["Stay in the room", "Leave the room"]
@@ -90,7 +86,7 @@ def search_the_key():
                                                                             
     """]
     
-    delayed_print_output(text_3)
+    slow_print(text_3)
     countdown(5)
     for i in text_4:
         print(i)
@@ -106,9 +102,9 @@ def search_the_key():
     
 
     while  player_choice != 3:
-        delayed_print_output("\nsearching...\n")
+        slow_print("\nsearching...\n")
         countdown(3)
-        delayed_print_output("\n\nNot found... Try harder...\n")
+        slow_print("\n\nNot found... Try harder...\n")
 
         choices = ["take a look in the cupboard",
                   "open all the drawers",
@@ -116,31 +112,19 @@ def search_the_key():
         player_choice = player_input(choices, decision_beer=0)
 
     if player_choice == 3:
-        delayed_print_output("\nsearching...\n")
+        slow_print("\nsearching...\n")
         countdown(3)
-        delayed_print_output(f"\n\n{game.name} found the bottle key :)\n")
-        delayed_print_output("""
-                             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                             @@@@@@@@@@@& .,,,. &@@@@@@@@@@@
-                             @@@@@@@&*,&@&*..,,%@@.*@@@@@@@@
-                             @@@@@@@,,,@@@@@@@@@@@@,@@@@@@@@
-                             @@@@@@@@ .*@@@,  &@@%..@@@@@@@@
-                             @@@@@@@@@@....,,,...,@@@@@@@@@@
-                             @@@@@@@@@@@@ .....,@@@@@@@@@@@@
-                             @@@@@@@@@@@@@.....@@@@@@@@@@@@@
-                             @@@@@@@@@@@@*.....,@@@@@@@@@@@@
-                             @@@@@@@@@@@@.......@@@@@@@@@@@@
-                             @@@@@@@@@@@@.  /...@@@@@@@@@@@@
-                             @@@@@@@@@@@@.. (,, @@@@@@@@@@@@
-                             @@@@@@@@@@@@.. (...@@@@@@@@@@@@\n\n""")
+        slow_print(f"\n\n{game.name} found the bottle key :)\n")
+        ascii_output("bottle-key.txt", delay=True)
                              
         game.inventory += ["bottle-key"]
-        delayed_print_output(f"""
+        slow_print(f"""
         {game.name} may leave this room now!
         Maybe back to the faculty room to drink a beer?""")
         leave_room()
                      
 def leave_room():
+    game.visited_rooms +=["closed_room_first_floor"]
     pass
 
 
