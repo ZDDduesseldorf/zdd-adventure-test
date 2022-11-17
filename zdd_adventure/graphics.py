@@ -5,15 +5,11 @@ import os
 import datetime
 
 # grafical funktion for printing delayed text
-def delayed_print_output(pattern, print_speed=0.05): #print_speed ist time.sleep value
-    ''' printed out a delayed version of your pattern'''
-    def slower_text(pattern):
-        for x in range(len(pattern)):
-            print(pattern[x], end= '')
-            sys.stdout.flush()
-            DELAY_TIME = time.sleep(print_speed)
-            DELAY_TIME
-    return slower_text(pattern)
+def slow_print(pattern, print_speed=0.05):
+	for i in pattern + '\n':
+		sys.stdout.write(i)
+		sys.stdout.flush()
+		time.sleep(print_speed)
 
 # countdown 
 def countdown(time_sec):
@@ -46,7 +42,7 @@ def ascii_output(picture, delay=False, print_speed=0.001):
     image_str = ascii_data.read()
     
     if delay == True:
-        delayed_print_output(image_str, print_speed)
+        slow_print(image_str, print_speed)
         
     else:
         print(image_str)
