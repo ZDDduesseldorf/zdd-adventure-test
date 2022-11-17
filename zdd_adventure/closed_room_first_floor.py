@@ -4,7 +4,7 @@ Created on Thu Nov 10 22:33:26 2022
 
 @author: lizak
 """
-from zdd_adventure.graphics import countdown, slow_print, ascii_output
+from zdd_adventure.graphics import countdown, slow_print, ascii_output, slow_list_print
 from zdd_adventure.InputChecker_and_DrunkMode import player_input
 import time
 # the locked room on the 1st basement 
@@ -87,9 +87,7 @@ def search_the_key():
     
     slow_print(text_3)
     countdown(5)
-    for i in text_4:
-        print(i)
-        time.sleep(1)
+    slow_list_print(text_4)
         
     choices = ["take a look in the cupboard",
                "open all the drawers",
