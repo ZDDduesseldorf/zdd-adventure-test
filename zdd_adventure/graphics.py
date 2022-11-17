@@ -53,7 +53,7 @@ def ascii_output(picture, delay=False, print_speed=0.001):
     
 def slow_list_print(output_list, delay=1):
     """and this function will just print the single words of 
-       your list delayed"""
+       your list delayed."""
         
     for i in output_list:
        print(i)
