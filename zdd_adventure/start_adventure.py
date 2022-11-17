@@ -1,16 +1,12 @@
 """This starts the adventure
 """
+import os
 import zdd_adventure.save as save
-import zdd_adventure.room_basement_1 as room_basement_1
+import zdd_adventure.change_place as change_place
 
 end_game = False
 
 def start():
-    for _ in range(5):
-        print(20 * ">")
-    print(">>>> Something awesome is about to happen...")
-    for _ in range(5):
-        print(20 * ">")
     print(">>>> Loading Data...")
     #spieldaten laden
     acc = save.load_data()
@@ -34,12 +30,11 @@ def start():
         save.create_new_player(name)
     else:
         name = accounts[(int(my_game)-1)]
-        print('Welcome back{name}!')
+        print(f'Welcome back {name}!')
     data = save.load_player_data(name)
-    rooms = {1: {1: room_basement_1.room_basement_1(data)}}
     while not end_game:
-        rooms[data["floor"]][data["room"]]
+        os.system('cls')
+        change_place.floor_rooms[data["floor"]][data["room"]]["func"](data)
+        data = change_place.change_place(data)
+        save.save_data(data)
     
-    
-
-start()

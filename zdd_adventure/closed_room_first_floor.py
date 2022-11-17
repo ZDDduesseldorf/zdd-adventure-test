@@ -6,6 +6,7 @@ Created on Thu Nov 10 22:33:26 2022
 """
 from zdd_adventure.graphics import delayed_print_output
 from zdd_adventure.graphics import countdown
+from zdd_adventure.InputChecker_and_DrunkMode import player_input
 import time
 # the locked room on the 1st basement 
 
@@ -17,34 +18,23 @@ import time
 # leave_room()
 
 
-# checks if Player_choice is a valid number
-def input_check(choice_list, txt):
-    while True:
-        #print(choice_list)
-        player_choice = int(input("Choice: "))
-        if player_choice in choice_list:
-            #print("found")
-            return player_choice
-        else:
-            print(txt)
+
     
     
     
 def closed_room_first_floor(game):
-    text_1 = f"""WoOoooOw the kiddo did it... 
-        {game.name} is now in a new room, but can't see anything...
-        it's dark
-        """
+    text_1 = f"""
+    WoOoooOw the kiddo did it...
+    {game.name} is now in a new room, but can't see anything...
+    it's dark\n\n"""
+
 
     delayed_print_output(text_1)
     
+    choices = ["Turn the light on", "leave the room"]
  
-    delayed_print_output('''
-    1. Turn the light on
-    2. leave the room
-    ''')
     
-    player_choice = input_check([1,2], "Decide between 1 or 2_ ")
+    player_choice = player_input(choices, decision_beer=0)
     if player_choice == 1:
         switch_light_on()
     if player_choice == 2:
@@ -54,19 +44,15 @@ def closed_room_first_floor(game):
      
 def switch_light_on():
     text_2 = f"""
-    Ooopss the light switch isn't working and the windows are 
-    dyed in Black, so that there is no daylight in the room...\n\n
-    """
+    Ooopss the light switch isn't working and the windows are
+    dyed in Black, so that there is no daylight in the room...\n\n"""
                 
     delayed_print_output(text_2)
     
-    delayed_print_output("""
-    The person has now the chance to decide:                          
-    1. Stay in the room
-    2. Leave the room
-    """)
-    player_choice = input_check([1,2],"""That number isn't valid...
-                                Option 1 or 2?""")
+    
+    choices = ["Stay in the room", "Leave the room"]
+    
+    player_choice = player_input(choices, decision_beer=0)
     if player_choice == 1:
         search_the_key()
 
@@ -79,8 +65,7 @@ def search_the_key():
     text_3 = f"""
     ****** SUDDENLY *****  
     {game.name} starts to hear strange noises...
-    The projector goes on and there's a new task!\n
-    """
+    The projector goes on and there's a new task!\n"""
 
     text_4 = ["""
                             ███████ ██ ███    ██ ██████  
@@ -112,28 +97,26 @@ def search_the_key():
         time.sleep(1)
         
         
-    delayed_print_output("""
-    1. take a look in the cupboard
-    2. open all the drawers
-    3. maybe the trashcan?
-    """)
+  
+    choices = ["take a look in the cupboard",
+               "open all the drawers",
+               "maybe the trashcan?"]
+    player_choice = player_input(choices, decision_beer=0)
+
     
-    player_choice = input_check([1,2,3],"""That number isn't valid...
-                                Option 1, 2 or 3?""")
 
     while  player_choice != 3:
-        delayed_print_output("searching...\n")
+        delayed_print_output("\nsearching...\n")
         countdown(3)
         delayed_print_output("\n\nNot found... Try harder...\n")
-        delayed_print_output("""
-        1. take a look in the cupboard
-        2. open all the drawers
-        3. maybe the trashcan?
-           """)
-        player_choice = input_check([1,2,3],"""That number isn't valid...
-                                      Option 1, 2 or 3?""")
+
+        choices = ["take a look in the cupboard",
+                  "open all the drawers",
+                  "maybe the trashcan?"]
+        player_choice = player_input(choices, decision_beer=0)
+
     if player_choice == 3:
-        delayed_print_output("searching...\n")
+        delayed_print_output("\nsearching...\n")
         countdown(3)
         delayed_print_output(f"\n\n{game.name} found the bottle key :)\n")
         delayed_print_output("""

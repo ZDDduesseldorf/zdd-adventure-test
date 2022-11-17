@@ -11,6 +11,7 @@ def slow_print(pattern, print_speed=0.05):
 		sys.stdout.write(i)
 		sys.stdout.flush()
 		time.sleep(print_speed)
+
 # countdown 
 def countdown(time_sec):
     
