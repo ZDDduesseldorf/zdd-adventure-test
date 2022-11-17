@@ -59,4 +59,15 @@ def slow_list_print(output_list, delay=1):
        print(i)
        time.sleep(delay)
        
+def percent(delay=0.02):    
+    """prints till 100%"""
+    
+    def status(percent):
+        sys.stdout.write(f"\r{percent}%")
+        sys.stdout.flush()
+    
+    for i in range(0,101):
+        time.sleep(delay)
+        status(i)
+       
     
