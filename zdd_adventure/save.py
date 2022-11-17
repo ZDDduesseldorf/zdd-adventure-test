@@ -28,7 +28,7 @@ def load_player_data(name):
 def save_data(data):
     ld = load_data()
     ld[data["name"]] = data
-    with open('zdd_adventure\player_data.json', 'w') as f:
+    with open(path + '/player_data.json', 'w') as f:
         json.dump(ld, f)
         
 def create_new_player(name):
