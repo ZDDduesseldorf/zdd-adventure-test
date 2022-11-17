@@ -10,7 +10,6 @@ import time
 # the locked room on the 1st basement 
 
 # the functionalities :
-# input_check()
 # closed_room_first_floor():
 # switch_light_on():
 # search_the_key()
@@ -19,16 +18,16 @@ import time
     
     
 def closed_room_first_floor(game):
+    """ this is the start unction of the room"""
+    
     text_1 = f"""
     WoOoooOw the kiddo did it...
     {game.name} is now in a new room, but can't see anything...
     it's dark\n\n"""
 
-
     slow_print(text_1)
     
     choices = ["Turn the light on", "leave the room"]
- 
     
     player_choice = player_input(choices, decision_beer=0)
     if player_choice == 1:
@@ -36,15 +35,14 @@ def closed_room_first_floor(game):
     if player_choice == 2:
         leave_room()
     
- 
-     
+   
 def switch_light_on():
+    """ the player tries to turn on the light but it doesn't work"""
     text_2 = f"""
     Ooopss the light switch isn't working and the windows are
     dyed in Black, so that there is no daylight in the room...\n\n"""
                 
     slow_print(text_2)
-    
     
     choices = ["Stay in the room", "Leave the room"]
     
@@ -57,6 +55,7 @@ def switch_light_on():
     
     
 def search_the_key():
+    """ the player finds the key in the trashcan"""
     
     text_3 = f"""
     ****** SUDDENLY *****  
@@ -92,14 +91,10 @@ def search_the_key():
         print(i)
         time.sleep(1)
         
-        
-  
     choices = ["take a look in the cupboard",
                "open all the drawers",
                "maybe the trashcan?"]
     player_choice = player_input(choices, decision_beer=0)
-
-    
 
     while  player_choice != 3:
         slow_print("\nsearching...\n")
