@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
 import json
+import os
+path = os.path.dirname(os.path.abspath(__file__))
 
 
 def load_data():
     # Opening JSON file
-    f = open('player_data.json', "r")
+    for f in os.listdir(os.path.dirname(os.path.abspath(__file__))):
+        print(f)
+    f = open(path + '/player_data.json')
 
     # returns JSON object as a dictionary
     data = json.load(f)
@@ -13,7 +17,7 @@ def load_data():
 
 def load_player_data(name):
     # Opening JSON file
-    f = open('player_data.json', "r")
+    f = open(path + '/player_data.json')
 
     # returns JSON object as a dictionary
     data = json.load(f)
@@ -24,7 +28,7 @@ def load_player_data(name):
 def save_data(data):
     ld = load_data()
     ld[data["name"]] = data
-    with open('player_data.json', 'w') as f:
+    with open('zdd_adventure\player_data.json', 'w') as f:
         json.dump(ld, f)
         
 def create_new_player(name):
