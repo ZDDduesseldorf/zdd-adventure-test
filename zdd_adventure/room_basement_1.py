@@ -31,10 +31,10 @@ def search_light_switch(data):
     #game.make_choice(choices)
 
     if player_choice == 1:
-        find_evidence()
+        find_evidence(data)
 
     if player_choice == 2:
-        leave_room()
+        leave_room(data)
     else:
         "Deine Antwort muss 1 oder 2 lauten."
         player_choice
@@ -63,17 +63,17 @@ def find_evidence(data):
     if player_choice == 1:
         print('Wasserflasche aufgehoben')
         data["inventory"] += ['Wasserflasche']
-        leave_room()
+        leave_room(data)
         
     if player_choice == 2:
         print('Schraubenzieher aufgehoben')
         data["inventory"] += ['Schraubenzieher']
-        leave_room()
+        leave_room(data)
         
     if player_choice == 3:
         print('Boardmarker aufgehoben')
         data["inventory"] += ['Boardmarker']
-        leave_room()
+        leave_room(data)
     else:
         "Deine Antwort muss 1, 2 oder 3 lauten."
         player_choice
