@@ -1,6 +1,8 @@
 """This starts the adventure
 """
 import os
+import json
+import time
 import zdd_adventure.save as save
 import zdd_adventure.change_place as change_place
 
@@ -35,8 +37,9 @@ def start():
         save.create_new_player(name)
     else:
         name = accounts[(int(my_game)-1)]
-        print(f'Welcome back {name}!')
+        print(f"Welcome back {name}!")
     data = save.load_player_data(name)
+    time.sleep(3)
     while not end_game:
         os.system('cls')
         change_place.floor_rooms[data["floor"]][data["room"]]["func"](data)
