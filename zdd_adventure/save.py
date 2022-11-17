@@ -4,7 +4,7 @@ import json
 
 def load_data():
     # Opening JSON file
-    f = open('zdd_adventure\player_data.json', "r")
+    f = open('player_data.json', "r")
 
     # returns JSON object as a dictionary
     data = json.load(f)
@@ -13,7 +13,7 @@ def load_data():
 
 def load_player_data(name):
     # Opening JSON file
-    f = open('zdd_adventure\player_data.json', "r")
+    f = open('player_data.json', "r")
 
     # returns JSON object as a dictionary
     data = json.load(f)
@@ -24,7 +24,7 @@ def load_player_data(name):
 def save_data(data):
     ld = load_data()
     ld[data["name"]] = data
-    with open('zdd_adventure\player_data.json', 'w') as f:
+    with open('player_data.json', 'w') as f:
         json.dump(ld, f)
         
 def create_new_player(name):
@@ -39,7 +39,7 @@ def game_over(data1):
     data["inventory"] = [
         "Studierendenausweis"
     ]
-    data["floor"] = 1
+    data["floor"] = -1
     data["room"] = 1
     data["visited_rooms"] = []
     save_data(data)

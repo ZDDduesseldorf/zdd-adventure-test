@@ -1,7 +1,7 @@
 """This starts the adventure
 """
 import zdd_adventure.save as save
-import zdd_adventure.room_basement_1 as room_basement_1
+import zdd_adventure.change_place as change_place
 
 end_game = False
 
@@ -34,11 +34,12 @@ def start():
         save.create_new_player(name)
     else:
         name = accounts[(int(my_game)-1)]
-        print('Welcome back{name}!')
+        print(f'Welcome back {name}!')
     data = save.load_player_data(name)
-    rooms = {1: {1: room_basement_1.room_basement_1(data)}}
     while not end_game:
-        rooms[data["floor"]][data["room"]]
+        #change_place.room_action(data,"func")
+        data = change_place.change_place(data)
+        save.save_data(data)
     
     
 
