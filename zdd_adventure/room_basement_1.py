@@ -1,4 +1,4 @@
-from zdd_adventure.graphics import delayed_print_output
+from zdd_adventure.graphics import slow_print
 
 
 
@@ -23,7 +23,7 @@ def search_light_switch(data):
     
     Der Raum ist jetzt beleutet.
     Was möchtest du tun? '''
-    delayed_print_output(text_pattern_2)
+    slow_print(text_pattern_2)
     player_choice = int(input('''
     1. Umsehen nach Anhaltszeichen
     2. Raum verlassen
@@ -52,7 +52,7 @@ def find_evidence(data):
     
     {name} hat jedoch nur Platz für ein Item. 
     '''
-    delayed_print_output(text_pattern_3)
+    slow_print(text_pattern_3)
     player_choice = int(input(f'''
     1. Wasserflasche
     2. Schraubenzieher
@@ -84,7 +84,7 @@ def leave_room(data):
     {name} hat den Vorlesungssaal jetzt wieder verlassen und steht jetzt auf dem Flur. 
     {name} steht nur da und fragt sich, wie es weiter gehen soll. 
     '''
-    delayed_print_output(txt)
+    slow_print(txt)
 
 
 
@@ -109,7 +109,7 @@ def room_basement_1(data):
     
     '''
 
-    delayed_print_output(text_pattern_1)
+    slow_print(text_pattern_1)
     player_choice = int(input('''
     1. Umsehen nach Anhaltszeichen
     2. Lichtschalter suchen

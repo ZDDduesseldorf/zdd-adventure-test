@@ -3,6 +3,7 @@
 import os
 import zdd_adventure.save as save
 import zdd_adventure.change_place as change_place
+from zdd_adventure.graphics import countdown, slow_print
 
 end_game = False
 
@@ -38,3 +39,4 @@ def start():
         data = change_place.change_place(data)
         save.save_data(data)
     
+start()
