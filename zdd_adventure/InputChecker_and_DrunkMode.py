@@ -8,17 +8,22 @@ import random
 
 
 choices = ["Run", "Switch on the light", "Do nothing"] #dummy input for presentation purposes
-decision_beer = 1 #dummy input for presentation purposes
-
-
 
 
 def player_input(choices, decision_beer=0): #choices: possible decisions/choices in a situation, type should be an array
-                                        #decision_beer: value of 1 or 0, depending if the Player is drunk or not
+                                            #decision_beer: value of 1 or 0, depending if the Player is drunk or not
     for i, choice in enumerate(choices): #loop for printing the different deciscions from the decision-array
         print(f"{i + 1}.  {choice}")
         
-    player_choice=int(input("Decide! ")) #player_choice: number the player chose on the keyboard
+    player_choice_str=input("Decide! ") #player_choice: number the player chose on the keyboard
+    
+    if player_choice_str.isdigit(): #checks if the user has entered a digit
+        player_choice=int(player_choice_str)
+        
+    else: #if the input is not a digit, the player is informed that he needs to type in another value 
+        print("No valid input. Please select one of the offered choices by pressing the corresponding numbers on the keyboard. \n")
+        return player_input(choices, decision_beer) #the PlayerInput function is called again
+        
     
     if player_choice <= len(choices) and player_choice > 0: #to verify that the number typed in by the Player is not higher than the actual number of decisions/choices
         verified_input = player_choice
@@ -36,9 +41,11 @@ def player_input(choices, decision_beer=0): #choices: possible decisions/choices
     
     else: #if the input is not valid, the player is informed that he needs to type in another value 
         print("No valid input. Please select one of the offered choices by pressing the corresponding numbers on the keyboard. \n")
-        player_input(choices, decision_beer) #the PlayerInput function is called again
+        return player_input(choices, decision_beer) #the PlayerInput function is called again
         
 
-#PlayerInput(choices)
-#while True:
-    #PlayerInput(choices) 
+#print(player_input(choices,decision_beer=0))
+
+
+while True:
+    player_input(choices,decision_beer=0) 
