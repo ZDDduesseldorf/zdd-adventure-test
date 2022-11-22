@@ -11,7 +11,6 @@ def load_data(filename: str):
     """Opening JSON file.
     """
     f = open(filename, "r")
-
     # returns JSON object as a dictionary
     data = json.load(f)
     f.close()

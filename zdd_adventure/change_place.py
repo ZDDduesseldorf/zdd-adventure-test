@@ -1,5 +1,6 @@
 import os
 import zdd_adventure.room_basement_1 as room_basement_1
+import zdd_adventure.closed_room_first_floor as crff
 
 floor_rooms = {
         -1: {"name": "Basement",
@@ -7,6 +8,12 @@ floor_rooms = {
                  "name": "Corridor"},
              1: {"func": room_basement_1.room_basement_1,
                  "name": "Room 1"}
+        },
+        1: {"name": "First Floor",
+             0: {"func": "",
+                 "name": "Corridor"},
+             3: {"func": crff.closed_room_first_floor,
+                 "name": "Closed Room"}
         }
     }
 
@@ -17,12 +24,13 @@ def chose_between_2():
         chose = input("Chose:")
     return chose
 
+
 def chose_between_list(l):
     chose = ""
     while not chose in l: 
         chose = input("Please decide:")
     return chose
-     
+
 
 def change_place(data):
     os.system('cls')

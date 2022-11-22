@@ -1,8 +1,11 @@
 """This starts the adventure
 """
 import os
+import json
+import time
 import zdd_adventure.save as save
 import zdd_adventure.change_place as change_place
+from zdd_adventure.graphics import countdown, slow_print
 
 end_game = False
 
@@ -16,6 +19,7 @@ def start():
         for i, account in enumerate(accounts):
             print(f"{i+1} {account}")
         my_game = input("\nInsert your Game:")
+<<<<<<< HEAD
         if my_game.strip() == "0":
             print("Welcome newcommer! \nFirst tell me your Name") # falls das in dritte form geschrieben werden soll bitte korrigieren
             name = ""
@@ -39,3 +43,28 @@ def start():
 
 if __name__ == '__main__':
     start()
+=======
+        if my_game.isnumeric():
+            if not int(my_game) <= len(accounts):
+                my_game = ""
+        else:
+            my_game = ""
+    name = ""
+    if my_game == "0":
+        print("Welcome newcommer! \nFirst tell me your Name") # falls das in dritte form geschrieben werden soll bitte korrigieren
+        while (name == "") or (name in accounts):
+            name = input("Enter your name: ")
+        save.create_new_player(name)
+    else:
+        name = accounts[(int(my_game)-1)]
+        print(f"Welcome back {name}!")
+    data = save.load_player_data(name)
+    time.sleep(3)
+    while not end_game:
+        os.system('cls')
+        change_place.floor_rooms[data["floor"]][data["room"]]["func"](data)
+        data = change_place.change_place(data)
+        save.save_data(data)
+    
+start()
+>>>>>>> main
