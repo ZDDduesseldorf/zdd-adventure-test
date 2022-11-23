@@ -43,9 +43,3 @@ def player_input(choices, decision_beer=0): #choices: possible decisions/choices
         print("No valid input. Please select one of the offered choices by pressing the corresponding numbers on the keyboard. \n")
         return player_input(choices, decision_beer) #the PlayerInput function is called again
         
-
-#print(player_input(choices,decision_beer=0))
-
-
-while True:
-    player_input(choices,decision_beer=0) 
