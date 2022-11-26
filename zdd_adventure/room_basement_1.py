@@ -5,7 +5,7 @@ from zdd_adventure.InputChecker_and_DrunkMode import player_input
 whiteboard = ['T was here']
 
 # WHITEBOARD ANPASSEN
-ascii_output("aktion_open_door.txt", True, 0.0003)
+#ascii_output("aktion_open_door.txt", True, 0.0003)
 def lecture_hall(game):
     text_pattern = ['''
 ██      ███████  ██████ ████████ ██    ██ ██████  ███████ 
@@ -109,13 +109,13 @@ def teachers_desk(whiteboard):
         ### ASCI Art Pic missing
         countdown(3)
         print('\n')
-        print(whiteboard)
+        print(game.whiteboard)
         print('\n')
         
     def write_on_whiteboard(whiteboard):
         if 'Whiteboard marker' in game.inventory:
             entry = str(input(f'What does {game.name} want to add on the  whiteboard \n'))
-            whiteboard = whiteboard.append(entry)
+            game.whiteboard += [entry]
             print('\n gespeichert')
             return whiteboard
         
@@ -304,6 +304,7 @@ if __name__ == "__main__":
             # Playername query
             self.name = input(str('name:  ')).upper()
             self.visited_rooms = []
+            self.whiteboard = []
 
 game = Game()
 lecture_hall(game)
