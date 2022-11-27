@@ -10,6 +10,7 @@ class Game:
         # Playername query
         self.name = input(str('name:  ')).upper()
         self.visited_rooms = []
+        self.whitebord = []
         
     def start(self):
         room_basement_1(self)

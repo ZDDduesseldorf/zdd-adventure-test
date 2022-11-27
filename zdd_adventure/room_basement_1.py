@@ -1,11 +1,7 @@
 from zdd_adventure.closed_room_first_floor import slow_list_print
-from zdd_adventure.graphics import slow_print, countdown, ascii_output
+from zdd_adventure.graphics import slow_print, countdown, ascii_output, clear_cmd
 from zdd_adventure.InputChecker_and_DrunkMode import player_input
 
-whiteboard = ['T was here']
-
-# WHITEBOARD ANPASSEN
-#ascii_output("aktion_open_door.txt", True, 0.0003)
 def lecture_hall(game):
     text_pattern = ['''
 ██      ███████  ██████ ████████ ██    ██ ██████  ███████ 
@@ -41,7 +37,8 @@ options {game.name} has to find out what happened...''')
     
     enter
     if choise == 1:
-        teachers_desk(whiteboard)
+        teachers_desk(game.whiteboard)
+        leave_room()
     if choise == 2:
         chair_rows()
     if choise == 3:
@@ -76,7 +73,7 @@ Unfortunately nothing to find here besides a disinfectant bottle''')
             slow_print(f'ohh noo, {game.name} need the storage room key to open the door.')
             enter = input('### press enter ### \n')
             enter
-            slow_print(f'{game.name} is now leaving the lecture hall...')
+            slow_print(f'\n{game.name} is now leaving the lecture hall...')
             countdown(5)
             game.visited_rooms += ['lecture hall']
             enter
@@ -89,27 +86,39 @@ Unfortunately nothing to find here besides a disinfectant bottle''')
     print('\n')
     slow_print(f'''ohhh wait, whats this? Another door? 
 {game.name} found a storage room door.  \n ''')
-    slow_print(f'For leaving the room which door should {game.name} choose?')
+    slow_print(f'For leaving the lecture hall which door should {game.name} use?')
     choises = ['storage room door','exit door']
     # 2 possible ways for leaving
     choise = player_input(choises, decision_beer=0)
+    print('\n')
     if choise == 1:
         storage_room()
+        ascii_output("lecture_hall.txt", True, 0.0003)
+        clear_cmd()
     if choise == 2:
         slow_print(f'{game.name} is now leaving the lecture hall...')
+        ascii_output("lecture_hall.txt", True, 0.0003)
+        clear_cmd()
         countdown(5)
         enter
+
 
 
 def teachers_desk(whiteboard):
     '''
     '''
-    
+
+    def print_whiteboard(whiteboard):
+        print('Whiteboard: \n')
+        for i, y in enumerate(whiteboard):
+            print('*', whiteboard[i])
+
+
     def look_at_whiteboard(whiteboard):
         ### ASCI Art Pic missing
         countdown(3)
         print('\n')
-        print(game.whiteboard)
+        print_whiteboard(game.whiteboard)
         print('\n')
         
     def write_on_whiteboard(whiteboard):
@@ -117,13 +126,14 @@ def teachers_desk(whiteboard):
             entry = str(input(f'What does {game.name} want to add on the  whiteboard \n'))
             game.whiteboard += [entry]
             print('\n gespeichert')
-            return whiteboard
+
+            return game.whiteboard
         
         else:
             slow_print(f'Ohhh noo, {game.name} missed to pick up the boardmarker.')
             
     
-########################################## teachers desk
+############################################################################################# teachers desk
 
     slow_print(f'Now {game.name} search the teachers desk for more informations.')
     print('\n')
@@ -151,7 +161,7 @@ def teachers_desk(whiteboard):
         slow_print('Party flyer from the Media Faculty picked up.')
         game.inventory += ['A party flyer from the Media Faculty']
         
-########################################## whiteboard
+###################################################################################### whiteboard
     print('\n')
     enter
     print('\n')
@@ -163,11 +173,10 @@ that something is written there.
     ready_to_leave = True
     while ready_to_leave == True:
         enter
-        slow_print(f'What does {game.name} want to do?')
+        slow_print(f'\nWhat does {game.name} want to do?')
         choises = ['look at the whiteboard', 'write something on the board','leave the room']
         choise = player_input(choises, decision_beer=0)
-        # WHITEBOARD ALS BILD EINGEBEN
-        whiteboard = ['Hello there. XD was here. Just for your information ']
+        # WHITEBOARD ALS BILD EINBLENDEN
         
 
         if choise == 1:
@@ -176,12 +185,14 @@ that something is written there.
             write_on_whiteboard(whiteboard)
             print('Whiteboard: \n' )
             for i,y in enumerate(whiteboard):
-                print(whiteboard[i], y) 
+                print('*',whiteboard[i])
                 
         if choise == 3:
-            return ready_to_leave == True
-            
-        leave_room()
+            ready_to_leave = False
+            return ready_to_leave
+
+
+
     
 
     
@@ -247,6 +258,8 @@ def chair_rows():
         countdown(6)
         print('\n')
         slow_print(f'{game.name} finds a special key. The key looks like a key for a storage room...')
+        ascii_output("lecture_hall_key.txt", True, 0.0003)
+        clear_cmd()
         countdown(3)
         print('\n')
         game.inventory += ['storage room key']
@@ -306,6 +319,7 @@ if __name__ == "__main__":
             self.visited_rooms = []
             self.whiteboard = []
 
-game = Game()
-lecture_hall(game)
+    game = Game()
+    game.whiteboard = ['T was here']
+    lecture_hall(game)
         
