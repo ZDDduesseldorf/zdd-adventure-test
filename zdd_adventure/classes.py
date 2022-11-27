@@ -8,8 +8,9 @@ class Game:
         self.events = []
         self.drunken = False
         # Playername query
-        self.name = input(str('name:  '))
+        self.name = input(str('name:  ')).upper()
         self.visited_rooms = []
+        self.whitebord = []
         
     def start(self):
         room_basement_1(self)
