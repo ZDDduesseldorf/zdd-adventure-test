@@ -400,6 +400,7 @@ Unfortunately nothing to find here besides a disinfectant bottle"""
         clear_cmd()
         countdown(5)
         enter
+
 #_________________________________________________________________________
 if __name__ == "__main__":
     class Game:
