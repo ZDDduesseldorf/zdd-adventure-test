@@ -843,7 +843,7 @@ def play_Intro():
             """,
             ""]
     
-    animate(animation2, timing=[0.8, 0.9, 0.4, 1.5], repetitions = 1)
+    animate(animation2, timing=[0.8, 0.9, 0.4, 1.5, 0.1], repetitions = 1)
     
     
 play_Intro()
