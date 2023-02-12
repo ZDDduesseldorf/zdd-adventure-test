@@ -89,8 +89,8 @@ def skip_frames(n=40):
     print(n*"\n")
 
 # animates multiple lines; can be used without time with standard time of 0.2 per frame
-def animate_multiple_lines(animation, timing=[]):
-    while True:
+def animate_multiple_lines(animation, timing=[], repetitions = 10):
+    for _ in range(repetitions):
         for i in range(0,len(animation)):
             skip_frames()
             sys.stdout.write(animation[i])
